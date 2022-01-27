@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+.container{
+
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: chocolate;
+   
+    padding: 20px;
+
+}
+.img{
+    float: left;
+    width: 100px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.mybio{
+    float: left;
+    padding: 20px;
+
+}
+.contract{
+    float: right;
+}
+.contract a{
+    text-decoration: none;
+    color: rgb(12, 78, 23);
+    font-weight: bold;
+
+}
+.contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*----
+
+main
+*/
+.left{
+
+    width: 30%;
+    float: left;
+
+}
+
+.right{
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr{
+
+    border: solid blanchedalmond 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+
+}
+.edu-left{
+    float: left;
+    width: 45%;
+
+}
+.edu-right{
+    float: right;
+    width: 45%;
+
+}
+.bottom{
+
+background-color: black;
+text-align: center;
+
+
+}
+
+.bottom a{
+    padding: 20px;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.bottom p{
+    color: white;
+    text-align: center;
+}
